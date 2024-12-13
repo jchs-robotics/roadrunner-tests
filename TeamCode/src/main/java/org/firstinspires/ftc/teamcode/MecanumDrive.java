@@ -62,15 +62,16 @@ public final class MecanumDrive {
 
         // FIXME
         // drive model parameters
-        public double inPerTick = 37.8207;
-        public double lateralInPerTick = 31.7888;
-        public double trackWidthTicks = 954.1642450666079;
+        public double inPerTick = 0.0266652445202923;
+        public double lateralInPerTick = 0.0609879811408255;
+        public double trackWidthTicks = 778.6255416007035;
 
         // TODO make them better next week
         // feedforward parameters (in tick units)
-        public double kS = 2.498184162364166;
-        public double kV = 0.0037995286571187235;
-        public double kA = 0.000001;
+        public double kS = 2.150833628177515;
+        public double kV = 0.004416336745212099;
+        public double kA = 1.736;
+        // old kA 0.00000000000116
 
         // TODO still need to do feedback tuner
 
